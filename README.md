@@ -1,5 +1,14 @@
 # Marque Id
 
+> **⚠️ Deprecated (2026-08-20).** This package has been renamed to
+> [`marque/ise`](https://github.com/letterofmarque/ise) /
+> [`marque/ise` on Packagist](https://packagist.org/packages/marque/ise). The
+> content is identical aside from the namespace (`Marque\Id` → `Marque\Ise`) and
+> view tag (`id::` → `ise::`) — `id` collided conceptually with `marque/usarrs`
+> (user management) despite having no auth logic of its own, so it was renamed
+> to stop that confusion at the source. No further releases will be made here.
+> Require `marque/ise` instead.
+
 App layout shell and shared Blade UI components for the [Marque](https://github.com/letterofmarque/marque) tracker platform.
 
 `id` provides the page shell (layout, navigation, footer) and a small set of Blade
